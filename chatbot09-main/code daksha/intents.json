@@ -1,0 +1,177 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "whatsup", "namaste", "assalamualaikum"],
+        "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?", "i am veltechnavbot", "namaste mama", "wa alaikum salaam"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "i got to go", "I am leaving", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "sad to see you go :(", "Have a nice day", "Talk to you later", "Bye! Come back again soon."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"],
+        "context": [""]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": ["Can you repeat that?", "I didn't catch that", "Could you please rephrase?"],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+        "context": [""]
+      },
+      {
+        "tag": "place",
+        "patterns": ["Where is the place?", "Can you tell me the location?", "What's the address?", "Where can I find it?"],
+        "responses": ["The place is located at [address].", "You can find the place at [address].", "Here is the address: [address]."],
+        "context": [""]
+      },
+    
+      
+        {
+          "tag": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
+          "patterns": ["Tell me about Vel Tech", "Give me information about Vel Tech", "What is Vel Tech?", "History of Vel Tech", "When was Vel Tech founded?", "About Vel Tech University", "Ranking of Vel Tech", "Vel Tech ranking", "Information on Vel Tech", "Vel Tech Institute", "Vel Tech courses", "Vel Tech fees", "What programs does Vel Tech offer?", "Can you provide details about Vel Tech's campus?", "I want to know more about Vel Tech's research initiatives", "Tell me about the faculty at Vel Tech", "How is the infrastructure at Vel Tech?", "What are the admission requirements for Vel Tech?", "Are there any scholarships available at Vel Tech?", "Can you share information about Vel Tech's industry collaborations?", "What sets Vel Tech apart from other universities?", "Tell me about the alumni network of Vel Tech"],
+          "responses": ["Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology is a highly regarded private university located in Avadi, Chennai, India. Established in 1997, it offers a wide range of programs in Engineering, Management, Media Technology, and Law. The university is known for its commitment to quality education and its focus on research and innovation. Vel Tech has received Tier I accreditation from the National Board of Accreditation for its aeronautical and mechanical engineering undergraduate programs and was accredited with an 'A' grade by the National Assessment and Accreditation Council in December 2015. In February 2023, the university was accredited with an 'A++' grade (the highest grade) by the National Assessment and Accreditation Council. Vel Tech was ranked 83 among the engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2022. The university has adapted the new pedagogical process called 'Conceive-Design-Implement-Operate' (CDIO) approach, which helps students acquire professional, personal, and inter-personal skills systematically. To learn more about Vel Tech, you can visit their website at <https://www.veltech.edu.in/>."],
+          "context": [""]
+        },
+        {
+          "tag": "veltech_assistant",
+          "patterns": ["What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered?", "What can you do for freshers?", "What help do you provide for new students?", "How can you assist existing students?", "What support do you offer for current students?"],
+          "responses": [
+            {
+              "response": "As the Vel Tech assistant, I'm still under development, but I can provide some helpful resources and information related to Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology: \n* Browse the official Vel Tech website (https://www.veltech.edu.in/) for comprehensive university information.  \n* Explore details on academics, admissions, research, campus life, and more.   \n I'm continuously learning and aim to be a valuable resource for students, faculty, and anyone interested in Vel Tech. Stay tuned for further updates on my capabilities!",
+              "context": {"student_type": "general"}
+            },
+            {
+              "response": "For fresher students, I can help with: \n* Understanding the admission process and requirements for Vel Tech. \n* Guiding you through the application process. \n* Providing information on important dates for admissions. \n* Sharing details on campus facilities and student clubs. \n* Connecting you with support services and academic resources.",
+              "context": {"student_type": "fresher"}
+            },
+            {
+              "response": "For existing students, I can help with: \n* Accessing your course schedule and registration for the next semester. \n* Finding internship opportunities and extracurricular activities. \n* Providing information on campus events and career development resources. \n* Connecting you with support services and research opportunities.",
+              "context": {"student_type": "existing"}
+            }
+          ],
+          "context": [""]
+        },
+    
+      
+          
+      {
+        "tag": "name",
+        "patterns": ["name", "your name", "do you have a name", "what are you called", "what is your name", "what should I call you", "whats your name?", "what are you", "who are you", "Who can I talk to about Vel Tech?", "Is there someone I can ask about Vel Tech?", "Can I talk to a Vel Tech representative?", "Who can I contact for Vel Tech information?", "Who can guide me through Vel Tech?", "Is there a Vel Tech guide I can talk to?", "Can I get a Vel Tech mentor?", "Who can help me navigate Vel Tech?", "What's the name of the Vel Tech assistant?", "Who is the Vel Tech assistant I'm talking to?", "Can I get to know the Vel Tech assistant better?", "What should I call the Vel Tech assistant?", "Who is the Vel Tech guide I'm working with?", "Can I learn more about the Vel Tech guide?", "What's the name of my Vel Tech mentor?", "Who is the Vel Tech navigator for my queries?"],
+        "responses": ["Hey there! I'm your assistant for Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology. Feel free to call me Vel Tech Assistant, and I'm happy to answer your questions about the university.", "Sure thing, you can call me the assistant. Ask away about Vel Tech and I'll do my best to help!", "Consider me your guide to all things Vel Tech University!", "No problem at all! That's what I'm here for. Shoot your questions about Vel Tech my way.", "Greetings! I'm here to assist you with all things Vel Tech. You can refer to me as your Vel Tech Companion.", "Hello! I'm your Vel Tech Virtual Assistant, ready to provide you with information and support regarding the university.", "Welcome! I go by the name Vel Tech Guru, and I'm here to assist you with any queries you have about Vel Tech University.", "Hello there! I'm your Vel Tech Information Specialist, available to help you with any questions you may have about the university.", "Greetings! I am your Vel Tech Navigator, here to guide you through any inquiries you may have about Vel Tech University."],
+        "context": [""]
+      },
+      {
+        "tag": "hours",
+        "patterns": ["timing of Vel Tech", "what are Vel Tech's hours", "working days at Vel Tech", "when is Vel Tech open", "Vel Tech hours of operation", "when is Vel Tech college open", "Vel Tech timings", "what about Vel Tech hours", "is Vel Tech open on Saturday", "tell me about Vel Tech timings", "what are the college hours at Vel Tech", "when should I come to Vel Tech", "when should I attend Vel Tech", "Vel Tech timings today", "timing of college", "what is college timing", "working days", "when are you guys open", "what are your hours", "hours of operation", "when is the college open", "college timing", "what about college timing", "is college open on saturday", "tell something about college timing", "what is the college hours", "when should i come to college", "when should i attend college", "what is my college time", "college timing", "timing college"],
+        "responses": ["Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology has different timetables for first year and students in years 2-4:\n\n**First Year:** Classes typically run from 8:45 AM to 3:45 PM, Monday through Friday.\n\n**Second to Fourth Year:** Students in these years have the flexibility to create their own timetables based on the courses allotted to them. The university likely provides an online course registration system or resources to help with scheduling. Unfortunately, I cannot provide specific course schedules due to this self-scheduling nature. However, it's highly recommended to consult the official Vel Tech website or contact the university directly for the most up-to-date information on course scheduling and registration processes.  **Please note that the first and third Saturdays of each month are holidays.**\nWould you like me to help you find the official Vel Tech website?"],
+        "context": [""]
+      },
+      {
+        "tag": "number",
+        "patterns": ["more info", "contact info", "how to contact college", "college telephone number", "college number", "What is your contact no", "Contact number?", "how to call you", "College phone no?", "how can i contact you", "Can i get your phone number", "how can i call you", "phone number", "phone no", "call"],
+        "responses": ["Here's how you can reach Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology:\n * **Admission Email:** admission@veltech.edu.in\n * **Phone Numbers:**\n     * Tamil Nadu: +91 94455 68802\n     * Andhra Pradesh & Telangana: 90031 07000\n     * Other States: 74488 88954\n     * Toll Free: 1800 2127 669\n * Website: https://www.veltech.edu.in/\n * Contact page: https://www.veltech.edu.in/contactus/"],
+        "context": [""]
+      },
+      {
+        "tag": "Vel Tech Clubs",
+        "patterns": ["NCC", "National Cadet Corps", "NSS", "National Service Scheme", "CPC", "Community Pro Club", "UBA", "Unnat Bharat Abhiyan", "Arts and drama club", "Dance club", "Music club", "Sports club", "Photography club"],
+        "responses": ["Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology offers a variety of clubs and extracurricular activities for students to get involved in. These include the National Cadet Corps (NCC), National Service Scheme (NSS), Community Pro Club (CPC), and Unnat Bharat Abhiyan (UBA) programs. The university also has an arts and drama club, dance club, music club, sports club, and photography club. These clubs provide opportunities for students to explore their interests, develop new skills, and build relationships with their peers. To learn more about these clubs and how to get involved, you can visit the Vel Tech website or contact the university directly."],
+        "context": [""]
+      },
+      {
+        "tag": "departments",
+        "patterns": ["departments", "what departments does Vel Tech have", "Vel Tech departments", "programs offered by Vel Tech", "courses at Vel Tech", "what can I study at Vel Tech", "Vel Tech academics", "majors at Vel Tech", "Vel Tech faculties"],
+        "responses": ["Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology offers a wide range of academic programs. Here are some of the departments:\n * School of Engineering\n * School of Computing\n * School of Electrical and Communication\n * School of Mechanical and Construction\n * School of Management\n * Department of Biological Sciences & Engineering\n * School of Law\n * School of Media Technology & Communication\n For a complete list of departments and programs, I recommend visiting the official Vel Tech website: https://www.veltech.edu.in/academics/"],
+        "context": [""]
+      },
+      {
+        "tag": "faculty",
+        "patterns": ["faculty", "professors at Vel Tech", "Vel Tech faculty", "who teaches at Vel Tech", "faculty information", "departments and faculty at Vel Tech", "Vel Tech faculty list", "professors in specific department", "faculty contact details"],
+        "responses": ["While I can't directly provide a comprehensive list of faculty members at Vel Tech due to privacy concerns, here are some resources to help you find the information you're looking for:\n  * **Official Vel Tech Website:** The university website likely has a faculty directory or department pages that list faculty members. You can search for specific departments or areas of interest: https://www.veltech.edu.in/\n  * **Department Contact Information:**  If you're interested in faculty for a specific department, you can try contacting the department directly using the information provided on the Vel Tech website. This might allow you to connect with the department chair or administrative staff who can guide you further.\n**Please note:**  Faculty contact details may not be publicly available due to privacy reasons, so it's best to follow the official channels mentioned above. \n If you need I  can provide faculty data of school of computing  or CSE DEPARTMENT  as I am trained on it ."],
+        "context": [""]
+      },
+      {
+        "tag": "School of computing",
+        "patterns": ["CSE faculty", "school of computing", "cse faculty list", "professors at Vel Tech CSE", "Vel Tech 33 Block faculty", "who teaches at CSE list", "faculty information of CSE", "departments and faculty at CSE", "Vel Tech faculty list", "professors in CSE department", "computer science engineering faculty contact details", "Can you provide information about the faculty members?"],
+        "responses": ["Certainly! According to our data, we have a total of 214 faculty members, with 110 males and 104 females. Among them, we have 19 professors, 45 associate professors, and 150 assistant professors. Additionally, 79 of our faculty members hold PhD degrees. \nI can even provide male and female faculty lists :)"],
+        "context": [""]
+      },
+      
+        
+            {
+              "tag": "MaleFacultyList",
+              "patterns": ["Can you provide a list of male faculty members?", "male faculty", "cse male", "male cse", "sir", "list of male professors", "male faculty members", "male professors in CSE", "list of men teaching at CSE"],
+              "responses": ["Sure! Here is a list of male faculty members with their QUALIFICATION and DESIGNATION:", "- Dr. V. SRINIVASA RAO, M.Tech., Ph.D Professor Dean-School of Computing", "- Dr. E. KANNAN, M.E.,Ph.D Professor Registrar", "- Dr. M. RAJEEV KUMAR, M.E.,Ph.D Professor & Dean (IQAC)", "- Dr. V. DHILIPKUMAR, M.E.,Ph.D Professor & Head, B.Tech. AI&DS", "- Dr. M. S. MURALI DHAR M.E.,Ph.D Associate Professor & Head, B.Tech", "- Dr. R. PARTHASARATHY, M.E., Ph.D Associate Professor & Head, B.Tech. CS&D", "- Dr. S. SARAVANAN, M.E., Ph.D Associate Professor & Head, B.Tech, CSE(CS)", "- Dr. R. SRINIVASAN, M.E.,Ph.D Professor", "- Dr.G.R. KANAGACHIDAMBARESAN, M.E., Ph.D Professor", "- Dr. M.A. MUKUNTHAN, M.E., Ph.D Professor", "- Dr. N. RAJKUMAR, M.E., Ph.D Professor", "- Dr. S. JAGAN, M.E., Ph.D Professor", "- Dr. S. ALEX DAVID, M.E., Ph.D Professor", "- Dr. M. SANKAR, M.Tech., Ph.D Professor", "- Dr. D. RAJESH, M.E., Ph.D Professor", "- Dr. N. K. SENTHIL KUMAR, M.E., Ph.D Associate Professor", "- Dr. S. RAVIKUMAR, M.Tech., Ph.D Associate Professor", "- Dr. S. DURAI, M.E., Ph.D Associate Professor", "- Dr. N. VIJAYARAJ, M.E., Ph.D Associate Professor", "- Dr. P. SIVAPRAKASH, M.E., Ph.D Associate Professor", "- Dr. A. MUTHUKRISHNAN, M.E., Ph.D Associate Professor", "- Dr. S.VINOTH KUMAR, M.E. Ph.D Associate Professor", "- Dr. M.GOKULDHEV, M.E., Ph.D Associate Professor", "- Dr. M.ARUN, M.E., Ph.D Associate Professor", "- Dr. P. S. RAMESH, M.E., Ph.D Associate Professor", "- Dr. G. DHANABALAN, M.E., Ph.D Associate Professor", "- Dr. V. JEEVANANTHAM, M.E., Ph.D Associate Professor", "- Dr. M.GURU VIMAL KUMAR, M.E.,Ph.D Associate Professor", "- Dr.R. CHITHAMBARAMANI, M.E., Ph.D Associate Professor", "- Dr. M.S.ARUNKUMAR, M.E., Ph.D Associate Professor", "- Dr.K.RAJESH KAMBATTAN ,M.E., Ph.D Associate Professor", "- Dr. T. B. SIVAKUMAR, M.E., Ph.D Associate Professor", "- Dr. T. VIJAYANANDH, M.E., Ph.D Associate Professor", "- Dr. J. SENTHILKUMAR, M.E.,Ph.D Associate Professor", "- Dr. G. PRABAHARAN,M.E.,Ph.D Associate Professor", "- Dr. M. RAVICHANDRAN, M.E.,Ph.D Associate Professor", "- Dr. G. NALLASIVAN, M.E.,Ph.D Associate Professor", "- Dr.A. PETER SOOSAI ANANDARAJ, M.E.,Ph.D Associate Professor", "- Dr. C. KOTTEESWARAN, M.E.,Ph.D Asociate Professor", "- Dr. JOHNT MESIA DHAS, M.E.,Ph.D Associate Professor", "- Dr. S. R. BARKUNAN, M.E.,Ph.D Associate Professor", "- Dr.K. ANTONY KUMAR, M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr. S. SARAN RAJ, M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr. R.M.DILIP CHARAAN, M.E.,Ph.D Associate Professor", "- Dr.K. KISHORE KUMAR, M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr. K. NAVAZ, M.E.,Ph.D Asistant Professor (Senior Grade)", "- Dr.T. SAJURAJ, M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr.M.SARAVANA KARTHIKEYAN, M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr. A. UDAYAKUMAR,M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr. S. ATHINARAYANAN,M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr. S. BALAMURUGAN, M.Tech., Ph.D Assistant Professor (Senior Grade)", "- Dr. P. RAJESH, M.E.,Ph.D Assistant Professor (SG)", "- Dr. T. KAMALESHWAR, M.Tech, Ph.D Assistant Professor", "- Dr. D. SUNDARANARAYANA, M.Tech, Ph.D Assistant Professor", "- Dr.C.M CHIDAMBARANATHAN, M.Tech, Ph.D Assistant Professor", "- Dr.A.AALAN BABU, M.E.,Ph.D Assistant Professor", "- Dr. A. PRATHIK, M.Tech., Ph.D Assistant Professor", "- Dr.J.VIMALA ITHAYAN, M.E.,Ph.D Assistant Professor", "- Dr. J.VIVEK, M.E.,Ph.D Assistant Professor", "- Dr. R. RAJESH, M.Tech, Ph.D Assistant Professor", "- Dr.S. GOKUL PRAN, M.E.,Ph.D Assistant Professor", "- Dr. R. ANANDH, M.E.,Ph.D Assistant Professor", "- Dr. S. YAZHINIAN, M.E.,Ph.D Assistant Professor", "- Dr. D. DHINAKARAN, ME. PH.D Assistant Professor", "- Dr. V. RAMKUMAR, M.E.,Ph.D Assistant Professor", "- Dr. R. MANIVANNAN, M.E., Ph.D Assistant Professor", "- Dr. S. EDWIN RAJA, M.Tech., Ph.D Assistant Professor", "- Dr. K. CHINNATHAMBI, MCA., Ph.D Assistant Professor", "- Dr. B. SENTHILKUMAR, M.Sc., Ph.D Assistant Professor", "- Mr. R. GANESAN, M.Tech Assistant Professor", "- Mr. R.VINOTH KUMAR, M.Tech Assistant Professor", "- Mr. D. MANIVANNAN, M.E Assistant Professor", "- Mr. N. K. MANIKANDAN, M.Ε Assistant Professor", "- Mr. A. S. SYED FIAZ, M.E Assistant Professor", "- Mr. N. SIVA RAMA LINGHAM,M.E Assistant Professor", "- Mr. K. SRI RAMAN, M.Tech Assistant Professor", "- Mr. IGNATIOUS K PIOUS, M.E Assistant Professor", "- Mr. G. RAJESH, M.E Assistant Professor", "- Mr. M. DHARMATEJA, M.Tech Assistant Professor", "- Mr. V. ASHOK KUMAR, M.Tech Assistant Professor", "- Mr. K. PRABAKARAN, M.E Assistant Professor", "- Mr. N. MANJUNATHAN, M.E Assistant Professor", "- Mr. V. JAGANRAJA, M.E Assistant Professor", "- Mr. T. M. SIVANESAN, M.E Assistant Professor", "- Mr.A.ARUL PRASATH, ME Assistant Professor", "- Mr. K. SANKAR GANESH, Μ.Ε Assistant Professor", "- Mr. S. GOPI, M.Tech Assistant Professor", "- Mr. M. GOKUL, M.Tech Assistant Professor", "- Mr. S. VENKATESWARAN, M.Tech Assistant Professor", "- Mr. V. KARTHIKEYAN, M.E Assistant Professor", "- Mr. M. TAMIL THENDRAL, M.E Assistant Professor", "- Mr. A. G. BALAMURUGAN, M.Tech Assistant Professor", "- Mr. I. VASUDEVAN, M.E Assistant Professor", "- Mr. A. A. AHAMED HARIS, M.E Assistant Professor", "- Mr. R. ANTO PRAVIN, M.E Assistant Professor", "- Mr. V. CHARLES PRABU, M.E Assistant Professor", "- Mr. V. SIVARAMAN, M.E Assistant Professor", "- Mr. D. MARICHAMY, M.E Assistant Professor", "- Mr. SHARAD SHANTHI RAVI, M.Tech Assistant Professor", "- Mr. Y. AYYAPPA, M.Tech Assistant Professor", "- Mr. K. DINESH KUMAR, M.Tech Assistant Professor", "- Mr. D. SAM KAMALESAN,M.E Assistant Professor", "- Mr. P. LIBIN JACOB, M.Е  Assistant Professor"],
+              "context": [""]
+            },
+            {
+              "tag": "FemaleFacultyList",
+              "patterns": ["Can you provide a list of female faculty members?", "female faculty", "cse female", "female cse", "mam", "list of female professors", "female faculty members", "female professors in CSE", "list of women teaching at CSE"],
+              "responses": ["Of course! Here is a list of female faculty members with their degrees and designations:", "- Dr. M. KAVITHA, M.E., Ph.D Professor", "- Dr. N. R. RAJALAKSHMI, M.E.,Ph.D Professor & Head, B.Tech, AI&ML", "- Dr. J. VISUMATHI, M.E.,Ph.D Professor & Head, B.Tech, IT", "- Dr. S. LALITHA, M.E., Ph.D Associate Professor & Head, B.Tech. CSE(AI&ML)", "- Dr. P. JOSE, M.E., Ph.D Associate Professor & Head, B.Tech. CSE(DS)", "- Dr. N. GOMATHI, M.E., Ph.D Professor", "- Dr. N. MALARVIZHI, M.E., Ph.D Professor", "- Dr. R. SUGUNA, M.Tech., Ph.D Professor", "- Dr. S. SRIDEVI, M.E., Ph.D Professor", "- Dr. A. BHAGYALAKSHMI, M.E., Ph.D Professor", "- Dr. D. UMANANDHINI,M.E., Ph.D Professor", "- Dr. R. ARUNA, M.Tech, Ph.D Associate Professor", "- Mrs. K. RAJATHI, M.Tech Associate Professor", "- Dr.V. KALPANA, ME, PLD Associate Professor", "- Dr. ANGELINE LYDIA, M.Tech., Ph. D Associate Professor", "- Dr. K. SEETHA LAKSHMI, M.E.,Ph.D Associate Professor", "- Dr. R. KANCHANA, M.E.,Ph.D Associate Professor", "- Dr. R. MEGIBA JASMINE, M.E., Ph.D Associate Professor", "- Dr. J. KAVITHA, M.E., Ph.D Associate Professor", "- Dr. S. AMUTHA, M.E,Ph.D Associate Professor", "- Dr. D. HARIPRIYA, M.E.,Ph.D Associate Professor", "- Dr.T. KUJANI, M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr. P.J. BESLIN PAJILA, M.E.,Ph.D Assistant Professor (Senior Grade)", "- Dr. R. LOGAMBIGAI, M.E.,Ph.D Assistant Professor (SG)", "- Dr. G. MARIAMMAL, M.E., Ph.D Assistant Professor", "- Dr. P. RAJALAKSHMI, M.E., Ph.D Assistant Professor", "- Dr. R. THANGASELVI, M.E., Ph.D Assistant Professor", "- Dr. M. PRABHA, M.E., Ph.D Assistant Professor", "- Dr. R. ROSELINKIRUBA, M.E., Ph.D Assistant Professor", "- Dr. E. SIVAJOTHI, M.E., Ph.D Assistant Professor", "- Dr. J. INDHUMATHI, M.E., Ph.D Assistant Professor", "- Dr. K. NITHYA, M.Tech., Ph.D Assistant Professor", "- Dr. R. LOTUS, M.Tech, Ph.D Assistant Professor", "- Dr. S. FAMILA, M.E., Ph.D Assistant Professor", "- Dr. S. UMADEVI, MCA., Ph.D Assistant Professor", "- Dr. M. VASUMATHY, MS, Ph.D  Assistant Professor", "- Dr. U. GEETHA, M.Tech., Ph.D Assistant Professor", "- Dr. D. LISSY, M.Phil., Ph.D Assistant Professor", "- Dr. LEENA NESAMANI, M.Phil., Ph.D Assistant Professor", "- Mrs. K. PREMA, M.Tech Assistant Professor", "- Mrs. D. FEMI, M.E Assistant Professor", "- Mrs. V. USHA, Μ.Ε  Assistant Professor", "- Mrs. S. THYLASHRI, M.E Assistant Professor", "- Mrs. C. SHYAMALA KUMARI, M.E Assistant Professor", "- Mrs. D. HEMALATHA, M.E Assistant Professor", "- Mrs. R. UMAMAHESWARI, M.E Assistant Professor", "- Mrs. P.ARIVUBRAKAN, M.E Assistant Professor", "- Mrs. C. SARANYA JOTHI, M.E Assistant Professor", "- Mrs. S. HANNAH, Μ.Ε Assistant Professor", "- Mrs. S. KIRUTHIGA, M.E Assistant Professor", "- Mrs. N. BEULAH JABASEELI, M.E Assistant Professor", "- Mrs. V. SUGANYA, Μ.Ε Assistant Professor", "- Mrs. J. SWAPNA, M.Ε Assistant Professor", "- Ms. P. PRASANNA, Μ.Ε Assistant Professor", "- Mrs. R. PANNEER SELVI, M.E Assistant Professor", "- Ms. R. VAISHNAVI, M.E Assistant Professor", "- Ms.A. ANANTHI, Μ.Ε Assistant Professor", "- Mrs. U. HEMAVATHI, M.E Assistant Professor", "- Mrs. K. MAITHILI, M.Tech Assistant Professor", "- Mrs. K. VIJAYALAKSHMI, M.E Assistant Professor", "- Mrs. MINU INBA SHANTHINI WATSON BENJAMIN, M.E Assistant Professor", "- Mrs. M. S. ROHINI, M.E Assistant Professor", "- Mrs. N. MOHANA SUGANTHI, Μ.Ε Assistant Professor", "- Ms. T. GANGALAKSHMI, M.E Assistant Professor", "- Mrs. I. FARZHANA, M.E Assistant Professor", "- Mrs. E. CHANDRALEKHA, M.Tech Assistant Professor", "- Ms.BHUVANESHWARI G, M.E Assistant Professor", "- Ms. G. PREETHΙ, Μ.Ε. Assistant Professor", "- Ms. R. JAYASRI, M.Tech Assistant Professor", "- Mrs. S. PREMA, Μ.Ε Assistant Professor", "- Ms. R. PRIYADARSHI M.E Assistant Professor", "- Mrs. V. PRIYA, M.E Assistant Professor", "- Mrs. M. DIVYA, Μ.Ε Assistant Professor", "- Mrs.KANIMOZHI J, M.Tech Assistant Professor", "- Mrs. K. PRIYA, Μ.Ε Assistant Professor", "- Mrs. K. SUGANYA, M.E Assistant Professor", "- Ms. P. KALAISELVI, M.E Assistant Professor", "- Ms. D. SANGEETHA, M.E Assistant Professor", "- Ms. V. VIJAYALAKSHMI, M.E Assistant Professor", "- Ms. S. HASHINI, M.E Assistant Professor", "- Ms. P. GIRIJA, M.Ε Assistant Professor", "- Mrs. E. GOKILA, M.Tech Assistant Professor", "- Mrs. P. SASIGRESA, M.E Assistant Professor", "- Mrs. S. STEFFI, M.E Assistant Professor", "- Mrs. M. MARY VESPA, M.E Assistant Professor", "- Mrs. S. SATHIYA PRIYA, M.E Assistant Professor", "- Mrs. A. SATHYA, M.E Assistant Professor"],
+              "context": [""]
+            },
+            
+        
+            
+              {
+                "tag": "Vel Tech Hostel",
+                "patterns": ["Girls Hostel Complex-Queens", "queens hostel", "girls hostels facilities", "girls hostel", "Girls", "girls rooms", "girls staying", "junior girls"],
+                "responses": [{"response": "The Girls Hostel Complex-Queens is numbered as Block 1 out of 43 Blocks of Vel tech university. The Girls Hostel Complex-Queens or Queens hostel is a residential facility for female students at Vel Tech University. It is equipped with modern amenities such as Wi-Fi, laundry facilities, and 24/7 security. The hostel provides a comfortable and conducive environment for students, with a pleasant ambience and a well-managed mess that caters to different tastes and preferences. The hostel also has uninterrupted electricity, a recreation hall, medical facilities, shops for basic needs, a gymnasium, and outdoor and indoor games facilities. For more info visit https://www.veltech.edu.in/hostels/"}],
+                "context": [""]
+              },
+              {
+                "tag": "Vel Tech Hostel",
+                "patterns": ["Staff Quarters", "faculty rooms", "faculty staying", "staff hostels facilities"],
+                "responses": [{"response": "The Staff Quarters is numbered as Block 2 out of 43 Blocks of Vel tech university. The Staff Quarters at Vel Tech University are residential facilities for the faculty and staff. They are equipped with modern amenities and provide a comfortable living experience."}],
+                "context": [""]
+              },
+              {
+                "tag": "Vel Tech Hostel",
+                "patterns": ["Junior Boys Hostel - complex-Lords, Balaji, Heroes, National & International", "B3 hostels", "juniors boys", "boys hostel"],
+                "responses": [{"response": "Junior Boys Hostel is numbered as Block 3 out of 43 Blocks of Vel tech university. The Junior Boys Hostel or B3 have complex-Lords, Balaji, Heroes, National & International is a residential facility for male students at Vel Tech University. It is equipped with modern amenities such as Wi-Fi, laundry facilities, and 24/7 security. The hostel provides a comfortable and conducive environment for students, with a pleasant ambience and a well-managed mess that caters to different tastes and preferences. The hostel also has uninterrupted electricity, a recreation hall, medical facilities, shops for basic needs, a gymnasium, and outdoor and indoor games facilities. For more info visit https://www.veltech.edu.in/hostels/"}],
+                "context": [""]
+              },
+              {
+                "tag": "Vel Tech Hostel",
+                "patterns": ["Senior Boys Hostel Complex-Prince", "senior boys hostel", "Prince hostel", "seniors hostel", "hostel near hawa"],
+                "responses": [{"response": "Senior Boys Hostel Complex-Prince is numbered as Block 3 out of 43 Blocks of Vel tech university. The Senior Boys Hostel Complex-Prince or Prince hostel is a residential facility for male students at Vel Tech University. It is equipped with modern amenities such as Wi-Fi, laundry facilities, and 24/7 security. The hostel provides a comfortable and conducive environment for students, with a pleasant ambience and a well-managed mess that caters to different tastes and preferences. The hostel also has uninterrupted electricity, a recreation hall, medical facilities, shops for basic needs, a gymnasium, and outdoor and indoor games facilities. For more info visit https://www.veltech.edu.in/hostels/"}],
+                "context": [""]
+              },
+              {
+                "tag": "Vel Tech Hostel",
+                "patterns": ["Leaders Hostel", "seniors leaders hostel", "leaders", "apartments"],
+                "responses": [{"response": "Leaders Hostel is numbered as Block 40 out of 43 Blocks of Vel tech university. The Leaders Hostel at Vel Tech University is a premium accommodation option for students. It is equipped with modern amenities such as Wi-Fi, laundry facilities, and 24/7 security. The hostel provides a comfortable and conducive environment for students, with a pleasant ambience and a well-managed mess that caters to different tastes and preferences. The hostel also has uninterrupted electricity, a recreation hall, medical facilities, shops for basic needs, a gymnasium, and outdoor and indoor games facilities. For more info visit https://www.veltech.edu.in/hostels/"}],
+                "context": [""]
+              },
+
+
+              
+              {
+                "tag": "Vel Tech Hostel",
+                "patterns": ["Reception South Junction"],
+                "responses": [{"response": "The Reception South Junction at Vel Tech University is the main entrance and reception area for the south campus. It is equipped with modern facilities and provides a conducive environment for receiving visitors and guests."}],
+                "context": [""]
+              },
+              {
+                "tag": "Vel Tech Hostel",
+                "patterns": ["International Guest House(IGH)"],
+                "responses": [{"response": "The International Guest House(IGH) at Vel Tech University is a residential facility for international students, faculty, and guests. It is equipped with modern amenities such as Wi-Fi, laundry facilities, and 24/7 security. The hostel provides a comfortable and conducive environment for international students, with a pleasant ambience and a well-managed mess that caters to different tastes and preferences. The hostel also has uninterrupted electricity, a recreation hall, medical facilities, shops for basic needs, a gymnasium, and outdoor and indoor games facilities."}],
+                "context": [""]
+              },
+              {
+                "tag": "Vel Tech Hostel",
+                "patterns": ["Vel Vinayagar Hostel"],
+                "responses": [{"response": "Vel Vinayagar Hostel is numbered as Block 43 Block of Vel tech university. The Vel Vinayagar Hostel at Vel Tech University is a residential facility for students. It is equipped with modern amenities such as Wi-Fi, laundry facilities, and 24/7 security. The hostel provides a comfortable and conducive environment for students, with a pleasant ambience and a well-managed mess that caters to different tastes and preferences. The hostel also has uninterrupted electricity, a recreation hall, medical facilities, shops for basic needs, a gymnasium, and outdoor and indoor games facilities. For more info visit https://www.veltech.edu.in/hostels/"}],
+                "context": [""]
+              }
+            
+            
+          ]
+        }
+        
